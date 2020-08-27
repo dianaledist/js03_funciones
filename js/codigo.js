@@ -6,7 +6,6 @@ function diasSemana() {
         if (i===(dias.length-1)) {
             console.log(`El ${dias[i]} es el último y séptimo día de la semana`)
         }
-        
         else if(i%2 != 0) {
             console.log(`${dias[i]} (${[i+1]})`)
         }
